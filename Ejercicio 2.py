@@ -1,3 +1,13 @@
+# El siguiente programa tiene como objetivo registrar los nombres y edades de los invitados a un evento. Al iniciar, el sistema debe preguntar cuántos invitados desea registrar.
+# Por cada uno, se debe solicitar el nombre (sin repetir) y la edad. No se permite registrar invitados menores de 12 años. Los nombres deben almacenarse en mayúsculas.
+
+# Una vez finalizado el proceso de ingreso, el sistema debe clasificar a los invitados según su edad y mostrar la distribución en mesas. La clasificación es la siguiente:
+# Mesa 1: menores de edad (12 a 17 años)
+# Mesa 2: adolescentes y jóvenes (18 a 29 años)
+# Mesa 3: adultos (30 años o más)
+# Cada mesa debe mostrar el nombre y la edad de los invitados asignados.
+
+
 invitados_menores = {}
 invitados_adolescentes = {}
 invitados_adultos = {}
