@@ -21,9 +21,9 @@ while True:
 
 print()
 
-for i in range(cantidad):
+for i in range(1, cantidad + 1):
     while True:
-        nombre = input(f"Nombre del invitado N°{i+1}: ").upper()
+        nombre = input(f"Nombre del invitado N°{i}: ").upper()
 
         if nombre in invitados_menores or nombre in invitados_adolescentes or nombre in invitados_adultos:
             print("Ese nombre ya está registrado en el sistema. Prueba con otro.")
